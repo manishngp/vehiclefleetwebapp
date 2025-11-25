@@ -40,3 +40,56 @@ A **modern, responsive web application** to manage and monitor a fleet of vehicl
 
 ```bash
 git clone <YOUR_REPO_URL>
+
+2. **Navigate to the project folder**
+
+```bash
+cd vehicle-fleet-management
+
+3. **Install dependencies**
+
+```bash
+npm install
+
+4. **Start the development server**
+
+```bash
+npm start
+
+
+```
+
+🎯 How to Use
+
+1.Open the app in your browser
+
+2.View the list of vehicles
+
+3.Use the search bar to find vehicles by name
+
+4.Apply filters to view online/offline vehicles
+
+5.Sort vehicles by name or last seen
+
+6.Click a vehicle row to see details, telemetry, and activity logs
+
+7.Click Edit to update vehicle details
+
+8.Click Save to apply changes or Cancel to discard
+
+9.Export the vehicle list using Export CSV
+
+
+#📂 Folder Structure
+vehicle-fleet-management/
+│
+├─ public/                 # Public assets
+├─ src/
+│   ├─ components/         # Search, Filter, Sort, VehicleDetails, VehicleEdit
+│   ├─ context/            # React Context for state management
+│   ├─ utils/              # Utility functions (CSV export)
+│   ├─ App.jsx             # Main app file
+│   └─ index.js           
+├─ package.json
+└─ README.md
+
