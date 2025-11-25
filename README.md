@@ -1,16 +1,42 @@
-# React + Vite
+# 🚗 Vehicle Fleet Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-18.2.0-blue?logo=react&logoColor=white)
+![Vercel](https://img.shields.io/badge/Deployment-Vercel-black?logo=vercel&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript&logoColor=black)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-Currently, two official plugins are available:
+A **modern, responsive web application** to manage and monitor a fleet of vehicles. Users can **search, filter, sort, edit, and track vehicles**, with real-time telemetry and activity logs.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Live Demo:** [🚀 View on Vercel](YOUR_VERCEL_LINK_HERE)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🔍 **Search Vehicles** – Quickly find vehicles by name  
+- 🎛 **Filter & Sort** – View vehicles by online/offline status or last seen  
+- ✏️ **Edit Vehicle Details** – Update name or status easily  
+- 📊 **Telemetry & Activity Logs** – Monitor speed, battery, and logs  
+- 📁 **Export CSV** – Download vehicle data for reporting  
+- 🌐 **Responsive Design** – Works seamlessly on desktop & mobile  
+- 🟢🔴 **Status Indicators** – Online/Offline vehicles highlighted with colors  
+- ✅ **Modern UI** – Professional fonts, hover effects, and clean layout  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Technologies Used
+
+- **Frontend:** React.js, HTML, CSS  
+- **State Management:** React Context API  
+- **Icons:** Lucide Icons  
+- **Deployment:** Vercel  
+- **Utilities:** CSV Export  
+
+---
+
+## 🚀 Installation & Setup
+
+1. **Clone the repository**
+
+```bash
+git clone <YOUR_REPO_URL>
