@@ -86,7 +86,8 @@ npm start
 
 
 7.Click Edit to update vehicle details
-<img width="536" height="251" alt="image" src="https://github.com/user-attachments/assets/7fa03ff2-3fe6-4ba1-8bf2-7630b640cb33" />
+<img width="630" height="110" alt="image" src="https://github.com/user-attachments/assets/b58c86bf-718e-4e54-bae4-790a3af685fe" />
+
 
 
 8.Click Save to apply changes or Cancel to discard
@@ -94,7 +95,8 @@ npm start
 
 
 9.Export the vehicle list using Export CSV
-<img width="244" height="102" alt="image" src="https://github.com/user-attachments/assets/d4dbf0cc-8e3c-49a9-9494-259f28d2f1be" />
+<img width="665" height="95" alt="image" src="https://github.com/user-attachments/assets/51b75b4c-7eb8-4822-9eec-eaa907a6219d" />
+
 
 
 
