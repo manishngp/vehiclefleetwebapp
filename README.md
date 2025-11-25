@@ -101,6 +101,7 @@ npm start
 
 
 #📂 Folder Structure
+```bash
 vehicle-fleet-management/
 │
 ├─ public/                      
@@ -126,19 +127,15 @@ vehicle-fleet-management/
 ├─ package.json
 ├─ package-lock.json
 └─ README.md
-
+```
 
 
 
 
 📌 Notes
-
 All components are responsive and user-friendly
-
 Status icons use green/red Lucide icons for clarity
-
 Exported CSV preserves all vehicle data
-
 Design uses modern fonts and hover effects for a polished UI
 
 
