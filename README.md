@@ -3,7 +3,7 @@
 ![React](https://img.shields.io/badge/React-18.2.0-blue?logo=react&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Deployment-Vercel-black?logo=vercel&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript&logoColor=black)
-![License](https://img.shields.io/badge/License-MIT-green)
+
 
 A **modern, responsive web application** to manage and monitor a fleet of vehicles. Users can **search, filter, sort, edit, and track vehicles**, with real-time telemetry and activity logs.
 
