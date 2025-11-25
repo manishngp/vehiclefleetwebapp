@@ -7,7 +7,7 @@
 
 A **modern, responsive web application** to manage and monitor a fleet of vehicles. Users can **search, filter, sort, edit, and track vehicles**, with real-time telemetry and activity logs.
 
-**Live Demo:** [🚀 View on Vercel](YOUR_VERCEL_LINK_HERE)
+**Live Demo:** [🚀 View on Vercel](https://vehiclefleetwebapp.vercel.app/)
 
 ---
 
@@ -40,24 +40,28 @@ A **modern, responsive web application** to manage and monitor a fleet of vehicl
 
 ```bash
 git clone <YOUR_REPO_URL>
+```
 
 2. **Navigate to the project folder**
 
 ```bash
 cd vehicle-fleet-management
+```
 
 3. **Install dependencies**
 
 ```bash
 npm install
+```
 
 4. **Start the development server**
 
 ```bash
 npm start
-
-
 ```
+
+
+
 
 🎯 How to Use
 
@@ -66,30 +70,73 @@ npm start
 2.View the list of vehicles
 
 3.Use the search bar to find vehicles by name
+<img width="627" height="129" alt="image" src="https://github.com/user-attachments/assets/14dbe479-0ebf-42d5-8c6b-01eb11bbda60" />
+
 
 4.Apply filters to view online/offline vehicles
+<img width="643" height="220" alt="image" src="https://github.com/user-attachments/assets/2082eb55-7f24-4fbf-a5dd-9881635364d9" />
+
 
 5.Sort vehicles by name or last seen
+<img width="634" height="167" alt="image" src="https://github.com/user-attachments/assets/ca961e3d-9d4b-482e-aa0a-2cc4a98c24af" />
+
 
 6.Click a vehicle row to see details, telemetry, and activity logs
+<img width="1246" height="146" alt="image" src="https://github.com/user-attachments/assets/0d8ec4a4-cac6-4a5e-b48b-8f3cf3064114" />
+
 
 7.Click Edit to update vehicle details
+<img width="536" height="251" alt="image" src="https://github.com/user-attachments/assets/7fa03ff2-3fe6-4ba1-8bf2-7630b640cb33" />
+
 
 8.Click Save to apply changes or Cancel to discard
+<img width="515" height="216" alt="image" src="https://github.com/user-attachments/assets/5824afdd-d2e5-4237-8e35-8bc1b17d29a9" />
+
 
 9.Export the vehicle list using Export CSV
+<img width="244" height="102" alt="image" src="https://github.com/user-attachments/assets/d4dbf0cc-8e3c-49a9-9494-259f28d2f1be" />
+
 
 
 #📂 Folder Structure
 vehicle-fleet-management/
 │
-├─ public/                 # Public assets
+├─ public/                      
+│
 ├─ src/
-│   ├─ components/         # Search, Filter, Sort, VehicleDetails, VehicleEdit
-│   ├─ context/            # React Context for state management
-│   ├─ utils/              # Utility functions (CSV export)
-│   ├─ App.jsx             # Main app file
-│   └─ index.js           
+│   ├─ components/              # Reusable React components
+│   │   ├─ Search.jsx
+│   │   ├─ Filter.jsx
+│   │   ├─ Sort.jsx
+│   │   ├─ VehicleList.jsx
+│   │   ├─ VehicleDetails.jsx
+│   │   └─ VehicleEdit.jsx
+│   │
+│   ├─ context/                 # React Context API for state management
+│   │   └─ VehicleContext.jsx
+│   │
+│   ├─ utils/                   # Utility functions
+│   │   └─ csvExporter.js
+│   │
+│   ├─ App.jsx                  # Main App component
+│   └─ index.js                 
+│
 ├─ package.json
+├─ package-lock.json
 └─ README.md
+
+
+
+
+
+📌 Notes
+
+All components are responsive and user-friendly
+
+Status icons use green/red Lucide icons for clarity
+
+Exported CSV preserves all vehicle data
+
+Design uses modern fonts and hover effects for a polished UI
+
 
